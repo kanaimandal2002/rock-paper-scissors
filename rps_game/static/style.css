@@ -1,1 +1,131 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
 
+.container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.score {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.score span {
+    color: #2c3e50;
+    font-size: 24px;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.choice {
+    cursor: pointer;
+    transition: transform 0.2s;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.choice:hover {
+    transform: scale(1.1);
+    background-color: #e0e0e0;
+}
+
+.choice img {
+    width: 80px;
+    height: 80px;
+}
+
+.result-area {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.player-choice, .computer-choice {
+    flex: 1;
+    text-align: center;
+}
+
+.vs {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+#user-choice, #computer-choice {
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#user-choice img, #computer-choice img {
+    width: 60px;
+    height: 60px;
+}
+
+#result-message {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.win {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.lose {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.tie {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+@media (max-width: 600px) {
+    .choices {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .choice {
+        margin-bottom: 15px;
+    }
+}
