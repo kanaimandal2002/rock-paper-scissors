@@ -111,12 +111,12 @@ h1 {
 
 .lose {
     background-color: #f8d7da;
-    color: #721c24;
+    color: #644b4e;
 }
 
 .tie {
     background-color: #fff3cd;
-    color: #856404;
+    color: #b48d19;
 }
 
 @media (max-width: 600px) {
