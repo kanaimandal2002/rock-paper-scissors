@@ -1,6 +1,7 @@
 # Rock Paper Scissors Web Game
 
 An enhanced version of the classic Rock Paper Scissors game with visual representation on the web.
+![rps_game preview](rps.png)
 
 ## Features
 - Interactive UI with visual feedback
