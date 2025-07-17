@@ -10,10 +10,16 @@ An enhanced version of the classic Rock Paper Scissors game with visual represen
 
 ## How to Run
 1. Make sure you have Python installed
-2. Clone repo:
+2. Clone the repository:
  ```bash
    git clone https://github.com/kanaimandal2002/rock-paper-scissors.git
-
-4. Install the required packages:
+   ```
+3. Install the required packages:
 ```bash
+cd rock-paper-scissors
 pip install flask
+```
+4. Change the directory and run :
+```bash
+cd rps_game
+python app.py
