@@ -12,7 +12,7 @@ An enhanced version of the classic Rock Paper Scissors game with visual represen
 
 ## Live Demo
 
-You can view a live version of this tool at [(https://kanaimandal2002.github.io/rock-paper-scissor/)]
+You can view a live version of this tool at [(https://kanaimandal2002.github.io/rock-paper-scissors/)]
 
 ## How to Run
 1. Make sure you have Python installed
