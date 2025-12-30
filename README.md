@@ -7,7 +7,6 @@ An enhanced version of the classic Rock Paper Scissors game with visual represen
 - Interactive UI with visual feedback
 - Animated game elements
 - Score tracking
-- Responsive design (works on mobile and desktop)
 
 
 ## How to Run
